@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+    background-color: black;
+    height: 700px;
+    width: 500px;
+    border: 3px solid black;
+    border-radius: 10px;
+
+    box-shadow: -10px 10px 5px gray;
+}
+
+.result-display-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100px;
+    width: 480px;
+    margin-top: 10px;
+}
+
+.result-display {
+    height: 80px;
+    width: 400px;
+    margin: 10px;
+
+    border-bottom:1px solid aqua;
+
+    font-size: 60px;
+    text-align: right;
+    color: aqua;
+
+}
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+    
+    flex-wrap: wrap;
+    row-gap: 1px;
+
+    flex-basis: 200px;
+    width: 480px;
+    margin-bottom: 10px;
+
+}
+
+.buttons-gray {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 0;
+
+    background-color: aqua;
+
+    font-size: 30px;
+}
+
+.buttons-red {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 0;
+
+    background-color: red;
+
+    font-size: 30px;
+}
+
+.buttons-numbers {
+    height: 100px;
+    width: 100px;
+    margin: 5px;
+    border-radius: 50%;
+    border: 0;
+
+    background-color: rgb(102, 99, 99);
+
+    font-size: 30px;
+}
+
+#Num0 {
+    width: 225px;
+    border-radius: 50px;
+}
+
+#Clear {
+    width: 160px;
+    margin-right: 5px;
+    border-radius: 50px;
+}
+
+#Delete {
+    width: 160px;
+
+    border-radius: 50px;
+}
+
